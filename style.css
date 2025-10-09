@@ -1,0 +1,91 @@
+:root {
+    --fundo:#d4e8f6;
+    --destaque:#004aad;
+    --capricho:#437ce5;
+    --fundo2:#a6a6a6;
+    --titulos:#1f80ff;
+    --border: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.header .header-1 {
+    background-color: var(--capricho);
+    padding: 1,5rem 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .header-1 i{
+    font-size: 2.5rem;
+    color: black;
+}
+.header .header-1 .logo{
+    font-size:3,5rem;
+    color: black;
+    width: 200px;
+    height: auto;
+}
+.header .header-1 .logo img{
+width: 50%;
+height:50%;
+}
+.header .header-1 .pesquisa {
+    width: 70rem;
+    height: 7rem;
+    border: black;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 1;
+}
+.header .header-1 .pesquisa input{
+    font-size: 1.5rem;
+    padding: 1.2rem;
+    height: 50%;
+    width: 100%;
+    color: black;
+}
+.header .header-1 .pesquisa label{
+    font-size: 2rem;
+    padding-left: 1.2rem;
+    color: black;
+    cursor: pointer;
+}
+.header .header-1 .pesquisa label:hover {
+    color: black;
+}
+.header .header-1 .icones {
+    font-size: 2.5rem;
+    margin-left: 1.5rem;
+    color: var black;
+    cursor: pointer;
+}
+.header .header-2{
+    background: var(--destaque);
+}
+.header .header-2 .navbar{
+    text-align: center;
+}
+.header .header-2 .navbar a{
+   color: #fff;
+   display: inline-block;
+   padding: 0.5rem;
+   font-size: 1.7rem;
+   margin-left: 2.5rem;
+}
+
+.home {
+    display: flex;
+    text-align: center;
+}
+
+.home .textos h1 {
+    color: var(--titulos);
+    font-family:'Bungee Shade' ;
+    display: flex;
+    text-align: center;
+}
